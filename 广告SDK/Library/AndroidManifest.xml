@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+1.1 增加网页展示统计,优惠代码 
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hzpd.library"
+    android:versionCode="2"
+    android:versionName="1.1" >
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="19" />
+    
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />  
+	<uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />  
+
+    <application android:allowBackup="true" >
+    </application>
+
+</manifest>
